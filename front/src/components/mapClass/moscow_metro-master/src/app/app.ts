@@ -184,6 +184,10 @@ export default class Map {
         if (Array.isArray(ids)) {
             for (const id of ids) {
                 this.selectOne(id);
+                window.addEventListener('message', (event) => {
+                    // Обработка сообщения от React компонента
+                    console.log('Message received from React:', event.data);
+                  });
             }
         }
     }
