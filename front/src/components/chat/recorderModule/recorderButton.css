@@ -1,0 +1,20 @@
+.recorder-btn{
+    background-color: blueviolet;
+    border-radius: 50%;
+    
+}
+
+.btn-recorder{
+    background-color:  #39697c;
+    border-radius: 10%;
+    transition: transform 0.5s linear;
+}
+
+
+.btn-recorder.active{
+    background-color: #73b7d1;
+    height: 3.5rem;
+    width: 3.5rem;
+    transform: translate(1px, 1px) scale(1.05);
+
+}

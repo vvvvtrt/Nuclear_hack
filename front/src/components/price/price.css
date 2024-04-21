@@ -1,0 +1,43 @@
+.wrapper-price{
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+
+}
+
+.wrapper-change-price{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+
+}
+
+.wrapper-with-salle{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+
+}
+
+.price-inp{
+    display: block-inline;
+    width: 13rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    
+}
+
+.salledprice-inp{
+    display: block-inline;
+    width: 13rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+
+}
+
+.price-radio{
+    text-align: left;
+}

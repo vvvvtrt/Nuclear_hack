@@ -1,0 +1,30 @@
+p{
+    margin: 0;
+    color: white;
+}
+
+.collapse-p::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px; 
+    width: 10px;
+    height: 46px; 
+    /* background-color: red;  */
+
+ } 
+
+ .collapse-p.loc::before{
+    background-color: #00BCF7; 
+      
+ }
+
+ .collapse-p.rank::before{
+    background-color: #00F75A;   
+
+ }
+
+ .collapse-p.price::before{
+    background-color: #A64CED;  
+
+ }

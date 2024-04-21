@@ -1,0 +1,58 @@
+.wrapper-button{
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+}
+
+.inner-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.wrapper-button button{
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    background-color: #191016;
+    /* box-shadow: 4px 4px 5px 0px #AEA3BC80; */
+    border-radius: 20px;
+    border: 0px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+
+}
+
+
+.button.home{
+    background-color: #5376EF;
+    background-image: url('../../../public/nav-icons/icon\ _home_.svg');
+    background-size: 70% 70%;
+
+}
+
+.button.search{
+    background-image: url('../../../public/nav-icons/icon\ _search_.svg');
+    background-size: 70% 70%;
+
+}
+
+.button.logout{
+    background-image: url('../../../public/nav-icons/icon\ _log\ out_.svg');
+    background-size: 70% 70%;
+}
+
+.button.exit{
+    background-image: url('../../../public/nav-icons/icon\ _x\ letter_.svg');
+    background-size: 70% 70%;
+
+}
+
