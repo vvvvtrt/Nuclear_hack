@@ -1,0 +1,23 @@
+.select-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.select-group{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: inherit;
+    display: flex;
+    border-radius: 6px;
+    border: 1px solid #d9d9d9;
+    background: #ffffff;
+
+}

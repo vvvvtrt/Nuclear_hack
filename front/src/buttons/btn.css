@@ -1,0 +1,41 @@
+.button-set{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: 16px;
+    top: 20px; 
+
+}
+
+button{
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    background-color: #FCF2F8;
+    box-shadow: 4px 4px 5px 0px #AEA3BC80;
+    border-radius: 20px;
+    border: 0px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+
+}
+
+.ask-btn{
+   background-image: url('../../public/buttons/question.svg');
+}
+
+.zm-minus-btn{
+    background-image: url('../../public/buttons/zoom-out.svg');
+    background-size: 70% 70%;
+
+}
+
+.zm-plus-btn{
+    background-image: url('../../public/buttons/zoom-in.svg');
+    background-size: 70% 70%;
+
+}

@@ -1,0 +1,55 @@
+.full-graph{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.graph-p{
+    margin-bottom: -15px;
+    margin-left: 36px;
+
+}
+
+.graph-parent{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    color: #6C848B !important; 
+    font-size: 26px;
+    gap: 5px;
+
+}
+
+.graph-parent.price{
+    color: #868686;
+    font-size: 20px;
+
+    margin-left: 38px;
+    margin-bottom: -10px;
+
+}
+
+.graph-parent-price{
+    color: #868686;
+    font-size: 20px;
+    margin-bottom: -10px;
+
+}
+
+.graph-checked{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    align-items: end;
+    font-size: 30px;
+    font-weight: 600;
+    gap: 20px;
+
+}
+
+.graph-checked.loc{
+
+}
+
+.graph-checked.loc{}

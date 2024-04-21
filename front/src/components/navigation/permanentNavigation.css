@@ -1,0 +1,17 @@
+.adept{
+    height: 1000px;
+    background-color: #191016;
+}
+
+.logo{
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-left: -45px;
+
+}
+
+.text{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 1vw;
+}

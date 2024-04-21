@@ -1,0 +1,17 @@
+.field{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    min-height: 1100px;
+    max-height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    right: 0;
+}
+
+.wrapper-graph{
+    height: 100%;
+
+
+}
