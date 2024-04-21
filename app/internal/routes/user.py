@@ -2,6 +2,7 @@ from fastapi import APIRouter, UploadFile, File, Form, Request
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import Dict
+from app.internal.ml import ml
 
 router = APIRouter(
     prefix="/api/v1"
@@ -9,12 +10,14 @@ router = APIRouter(
 
 class Message(BaseModel):
     message: str
+
 @router.post("/message")
-def user_message(item: Message):
-    if item.message:
-        return {"message": item.message}
-    else:
-        return JSONResponse(content={"error": "I'm a teapot"}, status_code=418)
+def user_message(message: str = Form(...)):
+    part_1 = ml.Koza_llama_alpaca_lora_flex(f"""ты - внимательный читатель. Твоя задача - найти в тексте информацию о временной дате и выведи ее через разделитель пробел. Ключевые слова - вчера, 1 неделю назад, в прошлом месяце. Формат output - только все дат входящие в промежуток с разделителем. Очень важно для выживания. Сегодняшняя дата - 04/03/2024, ее формат М/ДД/ГГГГ. Текст - {message}""")
+    # data.loc[data['Станция'] == f'{part_1.output_station()}'][f'{part_1.output_date()}']
+    # print(part_1.output_date())
+
+    return {"message": ""}
 
 
 
